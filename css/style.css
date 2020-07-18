@@ -1,0 +1,37 @@
+:root {
+    --main-bg-color:  hsl(218, 28%, 13%)
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--main-bg-color);
+}
+
+.header__logo {
+    width: 12em;
+    height: 12em;
+}
+
+.nav {
+    background-color: green;
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+    background-color: red;
+}
+
+.nav__list > li {
+    margin: 0 2em;
+}
+
+a {
+    display: block;
+    white-space: nowrap;
+}
