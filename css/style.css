@@ -1,37 +1,56 @@
 :root {
-    --main-bg-color:  hsl(218, 28%, 13%)
+    --intro-bottom-color: hsl(217, 28%, 15%);
+    --main-bg-color: hsl(218, 28%, 13%);
 }
 
-body {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
     box-sizing: border-box;
+    font-size: 14px;
+}
+
+.container {
+    background-color: var(--intro-bottom-color);
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: var(--main-bg-color);
+    align-items: center;
+    padding: 2em 1.5em;
+    font-family: 'Raleway', sans-serif;
+    max-width: 1340px;
+    margin: 0 auto;
 }
 
 .header__logo {
-    width: 12em;
-    height: 12em;
-}
-
-.nav {
-    background-color: green;
+    max-width: 22.5%;
+    height: auto;
+    display: block;
 }
 
 .nav__list {
     list-style: none;
     display: flex;
-    background-color: red;
+    justify-content: flex-end;
 }
 
-.nav__list > li {
-    margin: 0 2em;
+.nav__list > li + li {
+    margin-left: 2em;
 }
 
 a {
+    color: white;
+    text-decoration: none;
     display: block;
-    white-space: nowrap;
 }
