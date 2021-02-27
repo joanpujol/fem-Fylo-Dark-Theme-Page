@@ -5,32 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Open+Sans">
   <link rel="stylesheet" href="./css/style.css">
   
   <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
   <div class="wrap">
     <nav class="nav">
       <div class="nav__logo">
-        <svg>
-          <use xlink:href="images/logo.svg#logo" />
-        </svg>
+        <img src="./images/logo.svg" alt="">
       </div>
-      <ul class="nav__items">
-        <li class="nav__item">Features</li>
-        <li class="nav__item">Team</li>
-        <li class="nav__item">Sign In</li>
-      </ul>
+      <div class="nav__item nav__item--first">Features</div>
+      <div class="nav__item">Team</div>
+      <div class="nav__item nav__item--last">Sign In</div>
     </nav>
 
     <div class="hero">
+      <div class="hero__image">
+        <img src="/images/illustration-intro.png" alt="">
+      </div>
       <div class="hero__title">
         All your files in one secure location, accessible anywhere.
       </div>

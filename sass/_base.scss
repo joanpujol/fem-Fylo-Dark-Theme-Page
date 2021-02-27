@@ -1,0 +1,42 @@
+$font-size: 14px;
+
+:root {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: white;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: $font-size;
+}
+
+h1, h2, h3 {
+  font-family: Raleway;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  height: 100%;
+  width: auto;
+  display: block;
+}
+
+button {
+  border: 0;
+}
+
+.wrap {
+  background-color: #1B2330;
+}
