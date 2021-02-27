@@ -1,0 +1,23 @@
+{
+  "name": "fem-fylo-dark-theme-page",
+  "version": "1.0.0",
+  "description": "![Design preview for the Fylo landing page with dark theme and features grid challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joanpujol/fem-Fylo-Dark-Theme-Page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joanpujol/fem-Fylo-Dark-Theme-Page/issues"
+  },
+  "homepage": "https://github.com/joanpujol/fem-Fylo-Dark-Theme-Page#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
