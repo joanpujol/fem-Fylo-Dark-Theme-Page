@@ -2,16 +2,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2em 2em 0 2em;
+  padding: 1.5em 1.5em 0;
   background-color: #1B2330;
 
   &__logo {
-    height: 1.8em;
+    height: 1.75em;
   }
 
   &__item {
-    font-size: 0.75rem;
-    margin-left: 1.5em;
+    font-size: 0.8rem;
+    margin-left: 1.8em;
 
     &--first {
       margin-left: auto;

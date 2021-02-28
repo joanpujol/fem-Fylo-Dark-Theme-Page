@@ -33,13 +33,13 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2em 2em 0 2em;
+  padding: 1.5em 1.5em 0;
   background-color: #1B2330; }
   .nav__logo {
-    height: 1.8em; }
+    height: 1.75em; }
   .nav__item {
-    font-size: 0.75rem;
-    margin-left: 1.5em; }
+    font-size: 0.8rem;
+    margin-left: 1.8em; }
     .nav__item--first {
       margin-left: auto; }
 
@@ -73,13 +73,13 @@ button {
     z-index: -1; }
   .hero__image {
     height: 16em;
-    margin-bottom: 2.5em; }
+    margin-bottom: 2em; }
     .hero__image img {
       margin: 0 auto; }
   .hero__title {
     font-size: 1.5rem;
-    margin-bottom: 1em;
-    line-height: 1.5; }
+    margin-bottom: 0.6em;
+    line-height: 1.4; }
   .hero__desc {
     padding: 0 1em;
     margin-bottom: 2.5em;
@@ -92,22 +92,22 @@ button {
     background-image: linear-gradient(to right, #65e2d9, #339ecc); }
 
 .features {
-  background-color: red; }
+  background-color: #181f2a; }
   .features__image {
-    height: 4em;
-    margin-bottom: 2em; }
+    height: 4.2em;
+    margin-bottom: 2.5em; }
     .features__image img {
       margin: 0 auto; }
   .features__list {
     padding: 0 2em;
     text-align: center; }
     .features__list:first-child {
-      padding-top: 10em; }
+      padding-top: 9.5em; }
   .features__item {
-    margin-top: 8em;
     display: inline-block;
     margin: 0 auto; }
     .features__item + .features__item {
-      margin-top: 6em; }
+      margin-top: 7em; }
   .features__title {
+    font-size: 1.15rem;
     margin-bottom: 0.5em; }

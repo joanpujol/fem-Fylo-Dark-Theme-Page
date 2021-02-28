@@ -1,10 +1,9 @@
 .features {
-    // background-color: hsl(218, 28%, 13%);
-    background-color: red;
+    background-color: hsl(218, 28%, 13%);
 
     &__image {
-        height: 4em;
-        margin-bottom: 2em;
+        height: 4.2em;
+        margin-bottom: 2.5em;
 
         img {
             margin: 0 auto;
@@ -17,22 +16,21 @@
         text-align: center;
         
         &:first-child {
-            padding-top: 10em;
+            padding-top: 9.5em;
         }
     }
 
     &__item {
-        
-        margin-top: 8em;
         display: inline-block;
         margin: 0 auto;
 
         & + .features__item {
-            margin-top: 6em;
+            margin-top: 7em;
         }
     }
 
     &__title {
+        font-size: 1.15rem;
         margin-bottom: 0.5em;
     }
 }
