@@ -1,0 +1,38 @@
+.features {
+    // background-color: hsl(218, 28%, 13%);
+    background-color: red;
+
+    &__image {
+        height: 4em;
+        margin-bottom: 2em;
+
+        img {
+            margin: 0 auto;
+        }
+        
+    }
+
+    &__list {
+        padding: 0 2em;
+        text-align: center;
+        
+        &:first-child {
+            padding-top: 10em;
+        }
+    }
+
+    &__item {
+        
+        margin-top: 8em;
+        display: inline-block;
+        margin: 0 auto;
+
+        & + .features__item {
+            margin-top: 6em;
+        }
+    }
+
+    &__title {
+        margin-bottom: 0.5em;
+    }
+}
