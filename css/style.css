@@ -68,7 +68,7 @@ button {
     left: 0;
     height: 11em;
     width: 100%;
-    background: url("/images/bg-curvy-mobile.svg") bottom, #1c2431;
+    background: url("./images/bg-curvy-mobile.svg") bottom, #1c2431;
     background-size: 100% auto;
     background-repeat: no-repeat;
     z-index: -1; }
