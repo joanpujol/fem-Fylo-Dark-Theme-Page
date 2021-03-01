@@ -1,0 +1,51 @@
+.registration {
+
+    background: linear-gradient(
+        to bottom,
+        hsl(218, 28%, 13%) 0%,
+        hsl(218, 28%, 13%) 50%,
+        hsl(216, 53%, 9%) 50%,
+        hsl(216, 53%, 9%) 100%
+    );
+
+    text-align: center;
+    padding: 0em 1.5em;
+
+    &__box {
+        padding: 3em 2em 2.5em;
+        margin-bottom: 1em;
+        background-color: #1B2330;
+        border-radius: 0.5em;
+    }
+
+    &__title {
+        margin-bottom: 1em;
+    }
+
+    &__desc {
+        font-size: 0.8rem;
+        line-height: 1.7;
+        margin-bottom: 2.4em;
+    }
+
+    &__input {
+        border: none;
+        margin-bottom: 1.8em;
+
+
+        input {
+            border: none;
+            width: 100%;
+            padding: 1em;
+            height: 3.6em;
+            border-radius: 10em;
+        }
+    }
+
+    &__button {
+        width: 100%;
+        height: 3.6em;
+        padding: 1.1em;
+    }
+}
+

@@ -45,3 +45,10 @@ img {
 button {
   border: 0;
 }
+
+.action-button {
+  color: white;
+  font-weight: 700;
+  border-radius: 10em;
+  background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+}
