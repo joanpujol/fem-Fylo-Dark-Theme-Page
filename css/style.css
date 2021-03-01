@@ -202,7 +202,7 @@ button {
     padding: 3em 2em 2.5em;
     background-color: #1B2330;
     border-radius: 0.5em;
-    box-shadow: 5px 10px #888888; }
+    box-shadow: 5px 5px 10px #000000; }
   .registration__title {
     margin-bottom: 1em; }
   .registration__desc {
@@ -230,10 +230,12 @@ button {
 
 .footer {
   background-color: #0b1523;
-  padding: 5.55em 2.5em 0; }
+  padding: 5.55em 2em 0; }
+  .footer__logo {
+    margin-left: 0.8em; }
   .footer__location {
     letter-spacing: 1px;
-    margin: 3em 0 0 2.1em;
+    margin: 3em 0 0 2.8em;
     line-height: 1.7;
     position: relative; }
     .footer__location::before {
@@ -246,7 +248,7 @@ button {
       background-image: url("/images/icon-location.svg");
       background-repeat: no-repeat; }
   .footer__number {
-    margin: 1.4em 0 0 2.1em;
+    margin: 1.4em 0 0 2.8em;
     position: relative; }
     .footer__number::before {
       content: "";
@@ -259,7 +261,7 @@ button {
       background-repeat: no-repeat;
       background-size: 13px 13px; }
   .footer__email {
-    margin: 1.4em 0 0 2.1em;
+    margin: 1.4em 0 0 2.8em;
     position: relative; }
     .footer__email::before {
       content: "";
@@ -271,11 +273,11 @@ button {
       background-image: url("/images/icon-email.svg");
       background-repeat: no-repeat; }
   .footer__pages {
-    margin: 6em 0 0 -0.6em; }
+    margin-top: 6em; }
     .footer__pages > li {
       margin-bottom: 1.3em; }
   .footer__misc {
-    margin: 4em 0 0 -0.6em; }
+    margin-top: 4em; }
     .footer__misc > li {
       margin-bottom: 1.3em; }
   .footer__social {

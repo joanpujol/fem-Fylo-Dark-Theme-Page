@@ -1,10 +1,14 @@
 .footer {
     background-color: hsl(216, 53%, 9%);
-    padding: 5.55em 2.5em 0;
+    padding: 5.55em 2em 0;
+
+    &__logo {
+        margin-left: 0.8em;
+    }
 
     &__location {
         letter-spacing: 1px;
-        margin: 3em 0 0 2.1em;
+        margin: 3em 0 0 2.8em;
         line-height: 1.7;
         position: relative;
 
@@ -21,7 +25,7 @@
     }
 
     &__number {
-        margin: 1.4em 0 0 2.1em;
+        margin: 1.4em 0 0 2.8em;
         position: relative;
 
         &::before {
@@ -38,7 +42,7 @@
     }
 
     &__email {
-        margin: 1.4em 0 0 2.1em;
+        margin: 1.4em 0 0 2.8em;
         position: relative;
 
         &::before {
@@ -54,7 +58,7 @@
     }
 
     &__pages {
-        margin: 6em 0 0 -0.6em;
+        margin-top: 6em;
 
         & > li {
             margin-bottom: 1.3em;
@@ -62,7 +66,7 @@
     }
 
     &__misc {
-        margin: 4em 0 0 -0.6em;
+        margin-top: 4em;
 
         & > li {
             margin-bottom: 1.3em;
