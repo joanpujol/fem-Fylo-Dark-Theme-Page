@@ -1,9 +1,9 @@
 .usp {
     background-color: hsl(218, 28%, 13%);
-    padding: 9.5em 2em 0;
+    padding: 12em 2em 0;
 
     &__image {
-        margin-bottom: 4em;
+        margin-bottom: 3.75em;
         height: 16em;
 
         img {
@@ -21,20 +21,16 @@
     &__title {
         text-align: center;
         font-size: 1.2rem;
-        margin-bottom: 1em;
-    }
-
-    &__desc {
-
+        margin-bottom: 0.8em;
     }
 
     &__cta {
-        width: calc(11em);
+        width: 11em;
         display: inline-block;
         position: relative;
         font-size: 0.75rem;
         color: #5FDCD6;
-        padding-bottom: 0.4em;
+        padding-bottom: 0.3em;
         border-bottom: 1px solid #5FDCD6;
 
         img {
