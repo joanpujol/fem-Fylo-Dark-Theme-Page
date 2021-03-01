@@ -15,7 +15,7 @@
         padding: 3em 2em 2.5em;
         background-color: #1B2330;
         border-radius: 0.5em;
-        box-shadow: 5px 5px 10px #000000;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.07),0 2px 4px rgba(0,0,0,0.07),0 4px 8px rgba(0,0,0,0.07),0 8px 16px rgba(0,0,0,0.07),0 16px 32px rgba(0,0,0,0.07),0 32px 64px rgba(0,0,0,0.07);
     }
 
     &__title {
@@ -30,15 +30,14 @@
 
     &__input {
         border: none;
-        margin-bottom: 1.8em;
-        height: 3.5em;
+        margin-bottom: 1.7em;
 
 
         input {
             border: none;
             width: 100%;
+            height: 3.6em;
             padding: 1em;
-            height: 100%;
             border-radius: 10em;
 
             &::placeholder {
@@ -51,7 +50,7 @@
 
     &__button {
         width: 100%;
-        height: 3.5em;
+        height: 3.6em;
         padding: 1.1em;
     }
 }
