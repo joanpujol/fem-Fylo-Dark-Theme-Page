@@ -68,7 +68,7 @@ button {
     left: 0;
     height: 11em;
     width: 100%;
-    background: url("./images/bg-curvy-mobile.svg") bottom, #1c2431;
+    background: url("../images/bg-curvy-mobile.svg") bottom, #1c2431;
     background-size: 100% auto;
     background-repeat: no-repeat;
     z-index: -1; }
@@ -245,7 +245,7 @@ button {
       position: absolute;
       left: -2.8em;
       top: 0.5em;
-      background-image: url("./images/icon-location.svg");
+      background-image: url("../images/icon-location.svg");
       background-repeat: no-repeat; }
   .footer__number {
     margin: 1.4em 0 0 2.8em;
@@ -257,7 +257,7 @@ button {
       position: absolute;
       left: -2.5em;
       top: 0.2em;
-      background-image: url("./images/icon-phone.svg");
+      background-image: url("../images/icon-phone.svg");
       background-repeat: no-repeat;
       background-size: 13px 13px; }
   .footer__email {
@@ -270,7 +270,7 @@ button {
       position: absolute;
       left: -2.6em;
       top: 0.25em;
-      background-image: url("./images/icon-email.svg");
+      background-image: url("../images/icon-email.svg");
       background-repeat: no-repeat; }
   .footer__pages {
     margin-top: 6em; }
