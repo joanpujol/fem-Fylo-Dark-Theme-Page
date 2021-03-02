@@ -441,14 +441,16 @@ button {
       margin-left: 1em; }
   @media (min-width: 960px) {
     .footer {
-      padding: 6em 1.75em 5em 7em;
+      padding: 6em 6em 5em 11em;
       font-size: 0.7rem; }
       .footer__content {
         display: flex;
-        justify-content: space-around;
-        margin-top: 2em; }
+        justify-content: space-between;
+        margin-top: 2.2em; }
+      .footer__contact {
+        margin-left: -2.5em; }
       .footer__logo {
-        margin-left: 1.5em; }
+        margin-left: -2.5em; }
       .footer__location {
         width: 25em;
         margin: 0; }
@@ -459,6 +461,6 @@ button {
       .footer__pages {
         margin-top: 0; }
       .footer__misc {
-        margin-top: 0; }
+        margin: 0 -2em 0 -4.5em; }
       .footer__social {
         margin-top: 0; } }
