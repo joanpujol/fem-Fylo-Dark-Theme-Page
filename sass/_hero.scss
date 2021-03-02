@@ -56,4 +56,52 @@
     height: 3.6em;
     padding: 1.2em 6.2em;
   }
+
+  @media (min-width: 28em) {
+    &::before {
+      height: 25em;
+      bottom: 0;
+    }
+
+    &::after {
+      display: none;
+    }
+  }
+
+  @media (min-width: 960px) {
+    padding: 3.85em 0 0;
+
+    &::before {
+      height: 32em;
+      bottom: -10em;
+      background: url("../images/bg-curvy-desktop.svg") bottom, hsl(217, 28%, 15%);
+      background-size: 100% auto;
+      background-repeat: no-repeat;
+      z-index: -1;
+    }
+
+    &__image {
+      height: 26.6em;
+      margin-bottom: 2em;
+    }
+
+    &__title {
+      font-size: 1.8rem;
+      width: 21em;
+      margin: 0 auto;
+      line-height: 1.65;
+      letter-spacing: 2.5px;
+    }
+    
+    &__desc {
+      width: 32em;
+      margin: 1.5em auto;
+      line-height: 1.5;
+      margin-bottom: 1.65em;
+    }
+
+    &__action {
+      font-size: 0.775rem;
+    }
+  }
 }

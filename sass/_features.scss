@@ -1,4 +1,5 @@
 .features {
+    text-align: center;
     background-color: hsl(218, 28%, 13%);
 
     &__image {
@@ -13,7 +14,6 @@
 
     &__list {
         padding: 0 2em;
-        text-align: center;
         
         &:first-child {
             padding-top: 9.5em;
@@ -31,5 +31,44 @@
 
     &__title {
         margin-bottom: 0.5em;
+    }
+
+    @media (min-width: 960px) {
+
+        &__list {
+            &:first-child {
+                padding-top: 0;
+            }
+
+            margin: 5.25em 10em 0;
+            font-size: 0.9rem;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        &__item {
+            & + .features__item {
+                margin-top: 0;
+            }
+            
+            position: relative;
+            margin-top: 4.5em !important;
+            height: 12em;
+            width: 28em;
+        }
+
+        &__image {
+            margin-bottom: 1.7em;
+        }
+
+        &__title {
+            font-size: 0.95rem;
+        }
+
+        &__desc {
+            font-size: 0.7rem;
+            width: 75%;
+            margin: 0 auto;
+        }
     }
 }

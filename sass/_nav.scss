@@ -13,8 +13,20 @@
     font-size: 0.8rem;
     margin-left: 1.8em;
 
+    @media (min-width: 960px) {
+      margin-left: 3.5em;
+    }
+
     &--first {
       margin-left: auto;
+    }
+  }
+
+  @media (min-width: 960px) {
+    padding: 3.6em 4em 0;
+
+    &__logo {
+      height: 2.6em;
     }
   }
 }

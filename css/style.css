@@ -1,5 +1,6 @@
 :root {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-size: 14px; }
 
 *,
 ::before,
@@ -12,7 +13,7 @@ body {
   color: white;
   font-family: "Open Sans";
   font-weight: 400;
-  font-size: 14px; }
+  font-size: inherit; }
 
 h1, h2, h3 {
   font-family: Raleway;
@@ -41,6 +42,10 @@ button {
   border-radius: 10em;
   background-image: linear-gradient(to right, #65e2d9, #339ecc); }
 
+@media (min-width: 960px) {
+  :root {
+    font-size: 20px; } }
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -52,8 +57,16 @@ button {
   .nav__item {
     font-size: 0.8rem;
     margin-left: 1.8em; }
+    @media (min-width: 960px) {
+      .nav__item {
+        margin-left: 3.5em; } }
     .nav__item--first {
       margin-left: auto; }
+  @media (min-width: 960px) {
+    .nav {
+      padding: 3.6em 4em 0; }
+      .nav__logo {
+        height: 2.6em; } }
 
 .hero {
   padding: 3.5em 2em 0;
@@ -98,8 +111,41 @@ button {
   .hero__action {
     height: 3.6em;
     padding: 1.2em 6.2em; }
+  @media (min-width: 28em) {
+    .hero::before {
+      height: 25em;
+      bottom: 0; }
+    .hero::after {
+      display: none; } }
+  @media (min-width: 960px) {
+    .hero {
+      padding: 3.85em 0 0; }
+      .hero::before {
+        height: 32em;
+        bottom: -10em;
+        background: url("../images/bg-curvy-desktop.svg") bottom, #1c2431;
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        z-index: -1; }
+      .hero__image {
+        height: 26.6em;
+        margin-bottom: 2em; }
+      .hero__title {
+        font-size: 1.8rem;
+        width: 21em;
+        margin: 0 auto;
+        line-height: 1.65;
+        letter-spacing: 2.5px; }
+      .hero__desc {
+        width: 32em;
+        margin: 1.5em auto;
+        line-height: 1.5;
+        margin-bottom: 1.65em; }
+      .hero__action {
+        font-size: 0.775rem; } }
 
 .features {
+  text-align: center;
   background-color: #181f2a; }
   .features__image {
     height: 4.2em;
@@ -107,8 +153,7 @@ button {
     .features__image img {
       margin: 0 auto; }
   .features__list {
-    padding: 0 2em;
-    text-align: center; }
+    padding: 0 2em; }
     .features__list:first-child {
       padding-top: 9.5em; }
   .features__item {
@@ -118,6 +163,29 @@ button {
       margin-top: 7em; }
   .features__title {
     margin-bottom: 0.5em; }
+  @media (min-width: 960px) {
+    .features__list {
+      margin: 5.25em 10em 0;
+      font-size: 0.9rem;
+      display: flex;
+      flex-wrap: wrap; }
+      .features__list:first-child {
+        padding-top: 0; }
+    .features__item {
+      position: relative;
+      margin-top: 4.5em !important;
+      height: 12em;
+      width: 28em; }
+      .features__item + .features__item {
+        margin-top: 0; }
+    .features__image {
+      margin-bottom: 1.7em; }
+    .features__title {
+      font-size: 0.95rem; }
+    .features__desc {
+      font-size: 0.7rem;
+      width: 75%;
+      margin: 0 auto; } }
 
 .usp {
   background-color: #181f2a;
@@ -148,6 +216,30 @@ button {
       position: absolute;
       bottom: 2;
       right: 0; }
+  @media (min-width: 960px) {
+    .usp {
+      display: flex;
+      padding: 5.75em 5.4em 0; }
+      .usp__image {
+        height: 23em; }
+      .usp__content {
+        margin: 0 3em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
+        .usp__content p {
+          margin-bottom: 0.75em;
+          line-height: 1.5; }
+      .usp__title {
+        margin-top: -0.5em;
+        font-size: 2.1rem;
+        width: 10em;
+        text-align: initial;
+        margin-bottom: 0.5em; }
+      .usp__desc {
+        font-size: .8rem;
+        width: 35em;
+        margin-bottom: 1em; } }
 
 .testimonials {
   padding: 12em 3em 11.5em;
@@ -222,7 +314,7 @@ button {
       .registration__input input::placeholder {
         padding-left: 1.4em;
         font-size: 0.6rem;
-        color: rgba(128, 128, 128, 0.4); }
+        color: rgba(128, 128, 128, 0.75); }
   .registration__button {
     width: 100%;
     height: 3.6em;
@@ -240,10 +332,10 @@ button {
     position: relative; }
     .footer__location::before {
       content: "";
-      width: 20px;
-      height: 16px;
+      width: 16px;
+      height: 20px;
       position: absolute;
-      left: -2.8em;
+      left: -2.6em;
       top: 0.5em;
       background-image: url("../images/icon-location.svg");
       background-repeat: no-repeat; }
@@ -255,7 +347,7 @@ button {
       width: 18px;
       height: 18px;
       position: absolute;
-      left: -2.5em;
+      left: -2.6em;
       top: 0.2em;
       background-image: url("../images/icon-phone.svg");
       background-repeat: no-repeat;
@@ -287,6 +379,6 @@ button {
     justify-content: center; }
   .footer__social-logo {
     display: inline-block;
-    height: 2.2em; }
+    height: 2em; }
     .footer__social-logo + .footer__social-logo {
       margin-left: 1em; }

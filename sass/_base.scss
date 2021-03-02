@@ -2,6 +2,7 @@ $font-size: 14px;
 
 :root {
   box-sizing: border-box;
+  font-size: $font-size;
 }
 
 *,
@@ -16,7 +17,7 @@ body {
   color: white;
   font-family: "Open Sans";
   font-weight: 400;
-  font-size: $font-size;
+  font-size: inherit;
 }
 
 h1, h2, h3 {
@@ -51,4 +52,10 @@ button {
   font-weight: 700;
   border-radius: 10em;
   background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+}
+
+@media (min-width: 960px) {
+  :root {
+    font-size: 20px;
+  }
 }

@@ -14,10 +14,10 @@
 
         &::before {
             content: "";
-            width: 20px;
-            height: 16px;
+            width: 16px;
+            height: 20px;
             position: absolute;
-            left: -2.8em;
+            left: -2.6em;
             top: 0.5em;
             background-image: url("../images/icon-location.svg");
             background-repeat: no-repeat;
@@ -33,7 +33,7 @@
             width: 18px;
             height: 18px;
             position: absolute;
-            left: -2.5em;
+            left: -2.6em;
             top: 0.2em;
             background-image: url("../images/icon-phone.svg");
             background-repeat: no-repeat;
@@ -83,7 +83,7 @@
   
     &__social-logo {
         display: inline-block;
-        height: 2.2em;
+        height: 2em;
 
         & + .footer__social-logo {
             margin-left: 1em;

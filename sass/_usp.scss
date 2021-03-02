@@ -41,4 +41,39 @@
             right: 0;
         }
     }
+
+    @media (min-width: 960px) {
+        display: flex;
+        padding: 5.75em 5.4em 0;
+
+        &__image {
+            height: 23em;
+        }
+
+        &__content {
+            margin: 0 3em;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            p {
+                margin-bottom: 0.75em;
+                line-height: 1.5;
+            }
+        }
+
+        &__title {
+            margin-top: -0.5em;
+            font-size: 2.1rem;
+            width: 10em;
+            text-align: initial;
+            margin-bottom: 0.5em;
+        }
+
+        &__desc {
+            font-size: .8rem;
+            width: 35em;
+            margin-bottom: 1em;
+        }
+    }
 }
