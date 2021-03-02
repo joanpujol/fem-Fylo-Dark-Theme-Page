@@ -42,16 +42,17 @@
         }
     }
 
-    @media (min-width: 960px) {
+    @media (min-width: 900px) {
         display: flex;
+        justify-content: center;
         padding: 5.75em 5.4em 0;
 
         &__image {
             height: 23em;
+            margin-right: 3.25em;
         }
 
         &__content {
-            margin: 0 3em;
             display: flex;
             flex-direction: column;
             justify-content: center;

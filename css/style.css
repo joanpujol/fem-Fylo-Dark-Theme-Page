@@ -42,7 +42,7 @@ button {
   border-radius: 10em;
   background-image: linear-gradient(to right, #65e2d9, #339ecc); }
 
-@media (min-width: 960px) {
+@media (min-width: 1400px) {
   :root {
     font-size: 20px; } }
 
@@ -57,12 +57,12 @@ button {
   .nav__item {
     font-size: 0.8rem;
     margin-left: 1.8em; }
-    @media (min-width: 960px) {
+    @media (min-width: 1400px) {
       .nav__item {
         margin-left: 3.5em; } }
     .nav__item--first {
       margin-left: auto; }
-  @media (min-width: 960px) {
+  @media (min-width: 1400px) {
     .nav {
       padding: 3.6em 4em 0; }
       .nav__logo {
@@ -117,11 +117,11 @@ button {
       bottom: 0; }
     .hero::after {
       display: none; } }
-  @media (min-width: 960px) {
+  @media (min-width: 900px) {
     .hero {
       padding: 3.85em 0 0; }
       .hero::before {
-        height: 32em;
+        height: 50em;
         bottom: -10em;
         background: url("../images/bg-curvy-desktop.svg") bottom, #1c2431;
         background-size: 100% auto;
@@ -163,7 +163,7 @@ button {
       margin-top: 7em; }
   .features__title {
     margin-bottom: 0.5em; }
-  @media (min-width: 960px) {
+  @media (min-width: 900px) {
     .features__list {
       margin: 5.25em 10em 0;
       font-size: 0.9rem;
@@ -216,14 +216,15 @@ button {
       position: absolute;
       bottom: 2;
       right: 0; }
-  @media (min-width: 960px) {
+  @media (min-width: 900px) {
     .usp {
       display: flex;
+      justify-content: center;
       padding: 5.75em 5.4em 0; }
       .usp__image {
-        height: 23em; }
+        height: 23em;
+        margin-right: 3.25em; }
       .usp__content {
-        margin: 0 3em;
         display: flex;
         flex-direction: column;
         justify-content: center; }
@@ -256,8 +257,8 @@ button {
       position: relative; }
       .testimonials__item--first::before {
         content: "";
-        height: 55px;
-        width: 45px;
+        height: 45px;
+        width: 55px;
         position: absolute;
         top: -1.05em;
         left: 0.8em;
@@ -286,6 +287,37 @@ button {
     letter-spacing: 1px; }
   .testimonials__author-status {
     font-size: 0.5rem; }
+  @media (min-width: 1400px) {
+    .testimonials {
+      font-size: 2rem;
+      padding: 0 0; }
+      .testimonials__list {
+        display: flex;
+        justify-content: center;
+        align-items: baseline; }
+      .testimonials__item {
+        margin-top: 2.7em;
+        padding: 1em 0.65em 0.5em;
+        width: 8.9em;
+        border-radius: 0.15em; }
+        .testimonials__item + .testimonials__item {
+          margin: 0 0 0 1.2em; }
+        .testimonials__item--first::before {
+          top: -0.9em;
+          left: -0.2em;
+          background-size: 55px 45px; }
+      .testimonials__text {
+        line-height: 1.65; }
+      .testimonials__author-image {
+        height: 0.6em; }
+      .testimonials__author {
+        margin-top: 0.55em; }
+      .testimonials__author-meta {
+        margin-left: 0.25em; }
+      .testimonials__author-name {
+        font-size: 0.5rem; }
+      .testimonials__author-status {
+        font-size: 0.4rem; } }
 
 .registration {
   background: linear-gradient(to bottom, #181f2a 0%, #181f2a 50%, #0b1523 50%, #0b1523 100%);
@@ -319,6 +351,31 @@ button {
     width: 100%;
     height: 3.6em;
     padding: 1.1em; }
+  @media (min-width: 1100px) {
+    .registration {
+      padding: 10.3em 1.5em 0;
+      background: linear-gradient(to bottom, #181f2a 0%, #181f2a 75%, #0b1523 75%, #0b1523 100%); }
+      .registration__box {
+        max-width: 43em;
+        padding: 2.4em 1em 0.5em;
+        margin: 0 auto; }
+      .registration__title {
+        font-size: 1.5rem;
+        margin-bottom: .7em;
+        letter-spacing: 1.5px; }
+      .registration__desc {
+        font-size: 0.75rem;
+        width: 42.3em;
+        margin: 0 auto;
+        margin-bottom: 2.55em;
+        line-height: 1.5; }
+      .registration__input {
+        display: inline-block;
+        width: 58%; }
+      .registration__button {
+        display: inline-block;
+        margin-left: 1.5em;
+        width: 25%; } }
 
 .footer {
   background-color: #0b1523;
@@ -382,3 +439,26 @@ button {
     height: 2em; }
     .footer__social-logo + .footer__social-logo {
       margin-left: 1em; }
+  @media (min-width: 960px) {
+    .footer {
+      padding: 6em 1.75em 5em 7em;
+      font-size: 0.7rem; }
+      .footer__content {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 2em; }
+      .footer__logo {
+        margin-left: 1.5em; }
+      .footer__location {
+        width: 25em;
+        margin: 0; }
+      .footer__number {
+        margin: 0 0 1.5em; }
+      .footer__email {
+        margin: 0; }
+      .footer__pages {
+        margin-top: 0; }
+      .footer__misc {
+        margin-top: 0; }
+      .footer__social {
+        margin-top: 0; } }

@@ -89,4 +89,44 @@
             margin-left: 1em;
         }
     }
+
+    @media (min-width: 960px) { 
+        padding: 6em 1.75em 5em 7em;
+        font-size: 0.7rem;
+
+        &__content {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 2em;
+        }
+
+        &__logo {
+            margin-left: 1.5em;
+        }
+
+        &__location {
+            width: 25em;
+            margin: 0;
+        }
+
+        &__number {
+            margin: 0 0 1.5em;
+        }
+
+        &__email {
+            margin: 0;
+        }
+
+        &__pages {
+            margin-top: 0;
+        }
+
+        &__misc {
+            margin-top: 0;
+        }
+
+        &__social {
+            margin-top: 0;
+        }
+    }
 }
